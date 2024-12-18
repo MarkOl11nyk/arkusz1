@@ -31,21 +31,25 @@
            <form action="#" method="post"></form>
            <table>
             <tr>
-                <th>Imię:</th> <td><input type="name" id="name" name="name" required></td>
+                <th>Imię:</th> <td><input type="text" id="name" name="name" required></td>
             </tr>
             <tr>
-                <th>Nazwisko:</th> <td><input type="lastname" id="lastname" name="lastname" required></td>
+                <th>Nazwisko:</th> <td><input type="text" id="lastname" name="lastname" required></td>
             </tr>
-            <tr><th>Email:</th> <td><input type="email" id="email" name="email" required></td>
             <tr>
-                <th>zgloszenie:</th> <td><textarea name="zgloszenie" cols="50" rows="10">kiedy mogę odebrać naprawiony sprzęt?</textarea></td>
+                <th>Email:</th> <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <th>zgloszenie:</th> <td> <textarea name="zgloszenie" cols="50" rows="10">Kiedy mogę odebrać naprawiony sprzęt?</textarea> </td>
                 </tr>
             <tr>
-                <th></th><td><input type="checkbox" name="checkbox" value="checkbox">Zapoznałam/em się z regulaminem<br>
+                <th></th><td> </td>
+                <label for="checkbox">Zapoznałam/em się z regulaminem</label> 
+                <input type="checkbox" id="checkbox" name="checkbox" value="checkbox"><br>
                     <input type="reset" value="Resetuj">
                     <input type="submit" value="Prześlij"></td>
-        </form>
     </table>
+            </form>
            <hr>
         <p class="anna">ANNA NOWAK</p>
         <p class="anna">Treść Twojej sprawy:Kiedy mogę odebrać naprawiony sprzęt? </p>
